@@ -115,6 +115,7 @@ header li,
     text-transform: uppercase;
   }
 
+  /* Info */
   .info .dropUp{
     border-bottom: 0.3px solid #80808030;
     padding: 20px 0;
@@ -132,4 +133,52 @@ header li,
     font-family:"proximNovReg";
   }
 
-}
+  .info .dropUp i{
+    font-size: 10px;
+    cursor: pointer;
+  }
+
+  /* cta */
+  .cta{
+    background-color: #6c87b03d;
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  .cta .boxImg{
+    width: 300px;
+    margin: 13px 0;
+  }
+  .cta .boxImg img{
+    width: 100%;
+
+  }
+
+  /* footer */
+
+  footer{
+    padding-top: 3rem ;
+  }
+
+  footer .mainFBox{
+    padding: 20px 0;
+    background-color: #6c87b03d;
+    
+  }
+
+  .mainFBox h2{
+    text-align: center;
+  }
+
+  .mainFBox .box-comments{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+  
