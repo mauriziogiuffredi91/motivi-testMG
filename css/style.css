@@ -171,7 +171,11 @@ header li,
 
   .mainFBox h2{
     text-align: center;
+    margin: 43px 0;
+    text-transform: uppercase;
+    font-family: "proximNovBold";
   }
+
 
   .mainFBox .box-comments{
     display: flex;
@@ -180,5 +184,31 @@ header li,
     align-items: center;
   }
 
+  .mainFBox h3,
+  .mainFBox p{
+    font-family: "proximNovReg";
+  }
+
+  .mainFBox .box-comments p:last-of-type{
+    text-align: center;
+    margin-bottom: 50px;
+    line-height: 1.6;
+  }
+  .mainFBox .box-comments p:first-of-type{
+    margin-bottom: 20px;
+  }
+    
+  .mainFBox .box-comments .stars{
+    margin-bottom: 20px;
+  }
+  .mainFBox .box-comments .stars .fas{
+    color: #ff000094;
+  }
+  .mainFBox .box-comments .stars .white-star{
+    color: white;
+    
+  }
+
+}
 
   
