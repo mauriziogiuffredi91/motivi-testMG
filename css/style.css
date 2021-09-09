@@ -5,10 +5,11 @@
 }
 
 /* utilities */
-.container {
-  width: 1200px;
-  margin: 0 auto;
+
+header li{
+  list-style: none;
 }
+
 
 @font-face {
   font-family: "proximNovLight";
@@ -25,9 +26,56 @@
   src: url("../font-style/ProximaNova-Regular.ttf") format("truetype");
 }
 
-/*header*/
-.container ul {
-  display: flex;
-  justify-content: space-between;
-  align-content: center;
+
+
+/* media query */
+@media screen and (max-width:500px){
+  .container {
+    width: 430px;
+    margin: 0 auto;
+  }
+  /*header*/
+  header ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 18px 0;
+  }
+
+  .h-left a{
+    text-transform:uppercase;
+    font-size: 13px;
+    font-family: "proximNovBold";
+    border-bottom: 1px solid black;
+    
+  }
+  
+  .h-middle{
+    line-height: 1;
+  }
+  .h-middle h1{
+    text-align: center;
+    font-family: "proximNovReg";
+    font-size: 3rem;
+  }
+  .h-middle h3{
+    text-align: center;
+    font-family: "proximNovLight";
+    font-weight: inherit;
+  }
+  
+    
+
+
+
+  .h-right div{
+    text-transform:uppercase;
+    font-size: 13px;
+    font-family: "proximNovBold";
+    background-color: #77889963;
+    padding: 8px;
+    
+  }
+
+
 }
