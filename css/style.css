@@ -6,10 +6,10 @@
 
 /* utilities */
 
-header li{
+header li,
+.jumbotron li {
   list-style: none;
 }
-
 
 @font-face {
   font-family: "proximNovLight";
@@ -26,10 +26,8 @@ header li{
   src: url("../font-style/ProximaNova-Regular.ttf") format("truetype");
 }
 
-
-
 /* media query */
-@media screen and (max-width:500px){
+@media screen and (max-width: 500px) {
   .container {
     width: 430px;
     margin: 0 auto;
@@ -42,40 +40,96 @@ header li{
     padding: 18px 0;
   }
 
-  .h-left a{
-    text-transform:uppercase;
+  .h-left a {
+    text-transform: uppercase;
     font-size: 13px;
     font-family: "proximNovBold";
     border-bottom: 1px solid black;
-    
   }
-  
-  .h-middle{
+
+  .h-middle {
     line-height: 1;
   }
-  .h-middle h1{
+  .h-middle h1 {
     text-align: center;
     font-family: "proximNovReg";
     font-size: 3rem;
   }
-  .h-middle h3{
+  .h-middle h3 {
     text-align: center;
     font-family: "proximNovLight";
     font-weight: inherit;
   }
-  
-    
 
-
-
-  .h-right div{
-    text-transform:uppercase;
+  .h-right div {
+    text-transform: uppercase;
     font-size: 13px;
     font-family: "proximNovBold";
     background-color: #77889963;
     padding: 8px;
-    
   }
 
+  /* Jumbotron */
+  .j-img img {
+    width: 100%;
+  }
+
+  .jumbotron {
+    background-color: #6c87b03d;
+  }
+
+  .jumbotron li {
+    margin: 10px 0;
+  }
+
+  .jumbotron li:last-of-type {
+    margin-top: 35px;
+  }
+
+  .j-script {
+    padding: 30px 0;
+  }
+
+  .j-script h3 {
+    font-family: "proximNovBold";
+    font-size: 23px;
+  }
+  .j-script p {
+    font-family: "proximNovReg";
+    text-transform: uppercase;
+    font-size: 14px;
+  }
+
+  .j-script i {
+    margin-right: 5px;
+  }
+
+  .j-script button {
+    width: 430px;
+    background-color: #6c87b03d;
+    padding: 15px;
+    border: 1px solid black;
+    cursor: pointer;
+    font-family: "proximNovBold";
+    font-size: 13px;
+    text-transform: uppercase;
+  }
+
+  .info .dropUp{
+    border-bottom: 0.3px solid #80808030;
+    padding: 20px 0;
+    
+  }
+  .dropUp .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .info .dropUp a{
+    text-transform: uppercase;
+    font-size: 13px;
+    font-family:"proximNovReg";
+  }
 
 }
