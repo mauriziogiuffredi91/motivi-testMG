@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*import font*/
+
+@font-face {
+  font-family: "proximNovLight";
+  src: url("../font-style/ProximaNovaAltLight.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "proximNovBold";
+  src: url("../font-style/ProximaNovaBold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "proximNovReg";
+  src: url("../font-style/ProximaNova-Regular.ttf") format("truetype");
+}
