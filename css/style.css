@@ -4,7 +4,11 @@
   box-sizing: border-box;
 }
 
-/*import font*/
+/* utilities */
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
 
 @font-face {
   font-family: "proximNovLight";
@@ -19,4 +23,11 @@
 @font-face {
   font-family: "proximNovReg";
   src: url("../font-style/ProximaNova-Regular.ttf") format("truetype");
+}
+
+/*header*/
+.container ul {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
 }
