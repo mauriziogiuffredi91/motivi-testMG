@@ -403,25 +403,25 @@ header li,
     
   }
 
-  footer .content-main-f{
+  footer .mainFBox{
     height: 620px;
     overflow-y: scroll;
     padding-right: 20px;
   }
 
-  footer .content-main-f::-webkit-thumb{
+  footer .mainFBox::-webkit-thumb{
     box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
     background-color: #F5F5F5;
   } 
     
 
-  footer .content-main-f::-webkit-scrollbar{
+  footer .mainFBox::-webkit-scrollbar{
     width: 5px;
     background-color: #dce2ec;
   }
     
 
-  footer .content-main-f::-webkit-scrollbar-thumb{
+  footer .mainFBox::-webkit-scrollbar-thumb{
     background-color: white;
     
   }  
@@ -465,6 +465,8 @@ header li,
     color: white;
     
   }
+
+
 
 }
 
@@ -829,6 +831,68 @@ header li,
 
   .cta .boxImg .imgMob{
     display: none;
+  }
+
+  /* footer */
+  footer{
+    background-color:#efe6e7;
+    margin-top: 160px;
+  }
+
+  footer .mainFBox{
+    text-align: center;
+    padding: 50px 0;
+
+  }
+
+  .mainFBox .box-comments{
+    margin: 0 55px;
+  }
+
+  footer .mainFBox h2{
+    font-family: "proximNovBold";
+    font-size: 30px;
+    text-transform: uppercase;
+    margin-bottom: 70px;
+  }
+
+  footer .content-main-f{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+
+  footer .second-content-main-f{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+
+  .mainFBox h3,
+  .mainFBox p{
+    font-family: "proximNovReg";
+  }
+
+  .mainFBox .box-comments p:last-of-type{
+    text-align: center;
+    margin-bottom: 50px;
+    line-height: 1.6;
+  }
+  .mainFBox .box-comments p:first-of-type{
+    margin-bottom: 20px;
+  }
+    
+  .mainFBox .box-comments .stars{
+    margin-bottom: 20px;
+  }
+  .mainFBox .box-comments .stars .fas{
+    color: #ff000094;
+  }
+  .mainFBox .box-comments .stars .white-star{
+    color: white;
+    
   }
 
 
