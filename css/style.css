@@ -185,6 +185,17 @@ header li,
     padding: 15px 0;
     
   }
+
+  .downMenu3 li{
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+  }
+
+  .downMenu3 img{
+    margin-right: 15px;
+    width: 20px;
+  }
   /* dropdown4 */
   /* dropdown5 */
 
@@ -244,6 +255,8 @@ header li,
   }
   
   /* downmenu3 */
+
+
   /* downmenu4 */
   /* downmenu5 */
   
