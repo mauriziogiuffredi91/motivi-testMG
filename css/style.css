@@ -5,9 +5,15 @@
 }
 
 /* utilities */
+.clearfix{
+  content: '';
+  display: table;
+  clear: both;
+}
 
 header li,
-.jumbotron li {
+.jumbotron li,
+.info li {
   list-style: none;
 }
 
@@ -119,25 +125,129 @@ header li,
   .info .dropUp{
     border-bottom: 0.3px solid #80808030;
     padding: 20px 0;
+  }
+    
+
+  .info .dropUp{
+    font-size: 13px;
+  }
+
+  
+  /* dropdown1 */
+  .dropdown1 i{
+    float: right;
+    margin-left: 300px;
+  }
+
+  .downMenu1{
+    padding: 15px 0;
+  }
+  .downMenu1 p{
+    font-family: "proximNovReg";
     
   }
-  .dropUp .container{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+
+  .downMenu1 li:nth-child(6){
+    font-weight: bold;
+  }
+    
+  /* dropdown2 */
+  .dropdown2 i{
+    float: right;
+    margin-left: 320px;
   }
 
-  .info .dropUp a{
+  .downMenu2{
+    padding: 15px 0;
+    
+  }
+
+  
+
+  .downMenu2 span{
+    margin-right: 20px;
+  }
+
+  .downMenu2 li{
+    margin-bottom: 8px;
+    font-family: "proximNovReg";
+    text-align: left;
+    
+  }
+
+  /* dropdown3 */
+  .dropdown3 i{
+    float: right;
+    margin-left: 320px;
+  }
+
+  .downMenu3{
+    padding: 15px 0;
+    
+  }
+  /* dropdown4 */
+  /* dropdown5 */
+
+  
+    
+
+  /* Dropdown effect */
+
+  /* downmenu1 */
+  input, ul.downMenu1 {
+    display: none;
+  }
+
+  
+  label {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
     text-transform: uppercase;
     font-size: 13px;
-    font-family:"proximNovReg";
+    font-family:"proximNovBold";
   }
 
-  .info .dropUp i{
-    font-size: 10px;
+  
+
+  
+  input:checked~ul.downMenu1 {
+    display: block;
+  }
+  
+  .downMenu1 li{
+    margin-bottom: 10px;
+  }
+
+  /* downmenu2 */
+  
+
+  input, ul.downMenu2 {
+    display: none;
+  }
+
+  
+  label {
+    position: relative;
+    display: inline-block;
     cursor: pointer;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-family:"proximNovBold";
   }
 
+  
+
+  
+  input:checked~ul.downMenu2 {
+    display: block;
+  }
+  
+  /* downmenu3 */
+  /* downmenu4 */
+  /* downmenu5 */
+  
+  
   /* cta */
   .cta{
     background-color: #6c87b03d;
@@ -234,5 +344,19 @@ header li,
   }
 
 }
+    
+  
+
+ 
+
+
+  
+
+  
+
+
+
+  
+
 
   
