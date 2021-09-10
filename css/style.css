@@ -167,7 +167,31 @@ header li,
     padding: 20px 0;
     background-color: #6c87b03d;
     
+    
   }
+
+  footer .content-main-f{
+    height: 620px;
+    overflow-y: scroll;
+    padding-right: 20px;
+  }
+
+  footer .content-main-f::-webkit-thumb{
+    box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    background-color: #F5F5F5;
+  } 
+    
+
+  footer .content-main-f::-webkit-scrollbar{
+    width: 5px;
+    background-color: #dce2ec;
+  }
+    
+
+  footer .content-main-f::-webkit-scrollbar-thumb{
+    background-color: white;
+    
+  }  
 
   .mainFBox h2{
     text-align: center;
