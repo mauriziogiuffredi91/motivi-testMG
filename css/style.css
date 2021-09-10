@@ -38,6 +38,11 @@ header li,
     width: 430px;
     margin: 0 auto;
   }
+
+  .t-container{
+    width: 0;
+    margin: 0;
+  }
   /*header*/
   header ul {
     display: flex;
@@ -77,8 +82,8 @@ header li,
 
   /* Jumbotron */
   .j-img img {
-    width: 100%;
-    height: 260;
+    width: 478px;
+    height: 260px;
   }
 
   .jumbotron {
@@ -451,6 +456,144 @@ header li,
   }
 
 }
+
+@media screen and (min-width: 501px ) {
+  .container,
+  .t-container {
+    max-width: 1500px;
+    margin: 0 auto;
+  }
+
+  
+
+  /*header*/
+  header ul {
+    position: relative;
+    padding: 18px 0;
+  }
+
+  .h-left a {
+    text-transform: uppercase;
+    font-size: 13px;
+    font-family: "proximNovBold";
+    border-bottom: 1px solid black;
+    position: absolute;
+    top: 50px;
+  }
+
+  .h-middle {
+    line-height: 1;
+    text-align: center;
+  }
+  .h-middle h1 {
+    text-align: center;
+    font-family: "proximNovReg";
+    font-size: 3rem;
+  }
+  .h-middle h3 {
+    text-align: center;
+    font-family: "proximNovLight";
+    font-weight: inherit;
+  }
+
+  .h-right div {
+    text-transform: uppercase;
+    font-size: 13px;
+    font-family: "proximNovBold";
+    background-color: #77889963;
+    padding: 8px;
+    width: 100px;
+    position: absolute;
+    top: 43px;
+    left: 124px;
+    height: 25px;
+    text-align: center;
+    line-height: 0.8;
+  }
+
+  /* Jumbotron */
+  .jumbotron{
+    position: relative;
+  }
+
+  .jumbotron li {
+    margin: 10px 0;
+  }
+
+  .jumbotron li:last-of-type {
+    margin-top: 35px;
+  }
+
+  .j-script {
+    position: absolute;
+    top: 110px;
+    left: 911px;
+    background-color: #c6d5ec;
+    width: 800px;
+    height: 353px;
+    padding: 64px 100px;
+
+  }
+
+  .j-script h3 {
+    font-family: "proximNovBold";
+    font-size: 21px;
+  }
+  .j-script p {
+    font-family: "proximNovReg";
+    text-transform: uppercase;
+    font-size: 12px;
+  }
+
+  .j-script i {
+    margin-right: 5px;
+  }
+
+  .j-script button {
+    width: 195px;
+    background-color: #6c87b03d;
+    padding: 15px;
+    border: 1px solid black;
+    cursor: pointer;
+    font-family: "proximNovBold";
+    font-size: 12px;
+    text-transform: uppercase;
+  }
+
+  .info .dropUp p{
+    font-family: "proximNovReg";
+    font-size: 13px;
+  }
+
+  .downMenu1 li:nth-child(6){
+    font-weight: bold;
+  }
+
+  .info .dropUp .dropdown1{
+    position: absolute;
+    top: 290px;
+    left: 1325px;
+  }
+
+  .info .dropUp input,
+  .info .dropUp i{
+    display: none;
+  }
+
+  .info .dropUp label{
+    font-size: 13px;
+    font-family:"proximNovBold";
+    margin-bottom: 15px;
+    display: inline-block;
+  }
+
+  .info .dropUp .dropdown1 li{
+    margin-bottom: 5px;
+  }
+
+}
+
+
     
   
 
