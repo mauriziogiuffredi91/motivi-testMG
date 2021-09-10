@@ -175,12 +175,14 @@ header li,
     
   }
 
-  /* dropdown3 */
-  .dropdown3 i{
+  /* dropdown3/4/5 */
+  .dropdown3 i,
+  .dropdown4 i,
+  .dropdown5 i{
     float: right;
-    margin-left: 320px;
+    margin-left: 290px;
   }
-
+/* dropdown3 */
   .downMenu3{
     padding: 15px 0;
     
@@ -190,6 +192,8 @@ header li,
     display: flex;
     align-items: center;
     margin: 10px 0;
+    font-family: "proximNovReg";
+    
   }
 
   .downMenu3 img{
@@ -197,6 +201,7 @@ header li,
     width: 20px;
   }
   /* dropdown4 */
+
   /* dropdown5 */
 
   
@@ -205,7 +210,11 @@ header li,
   /* Dropdown effect */
 
   /* downmenu1 */
-  input, ul.downMenu1 {
+  input, ul.downMenu1,
+  input, ul.downMenu2,
+  input, ul.downMenu3,
+  input, ul.downMenu4,
+  input, ul.downMenu5 {
     display: none;
   }
 
@@ -222,44 +231,22 @@ header li,
   
 
   
-  input:checked~ul.downMenu1 {
+  input:checked~ul.downMenu1,
+  input:checked~ul.downMenu2,
+  input:checked~ul.downMenu3,
+  input:checked~ul.downMenu4,
+  input:checked~ul.downMenu5 {
     display: block;
   }
   
-  .downMenu1 li{
+  .downMenu1 li,
+  .downMenu2 li,
+  .downMenu3 li,
+  .downMenu4 li,
+  .downMenu5 li{
     margin-bottom: 10px;
-  }
-
-  /* downmenu2 */
   
-
-  input, ul.downMenu2 {
-    display: none;
-  }
-
-  
-  label {
-    position: relative;
-    display: inline-block;
-    cursor: pointer;
-    text-transform: uppercase;
-    font-size: 13px;
-    font-family:"proximNovBold";
-  }
-
-  
-
-  
-  input:checked~ul.downMenu2 {
-    display: block;
-  }
-  
-  /* downmenu3 */
-
-
-  /* downmenu4 */
-  /* downmenu5 */
-  
+  }  
   
   /* cta */
   .cta{
