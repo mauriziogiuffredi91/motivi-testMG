@@ -35,7 +35,7 @@ header li,
 /* media query */
 @media screen and (min-width: 370px) and (max-width: 414px) {
   .container {
-    max-width: 370px;
+    max-width: 360px;
     margin: 0 auto;
   }
 
@@ -83,7 +83,7 @@ header li,
 
   /* Jumbotron */
   .j-img img {
-    width: 405px;
+    width: 421px;
     height: 240px;
   }
 
@@ -468,9 +468,9 @@ header li,
 
 }
 
-/* @media screen and (min-width:375px) and (max-width:768px){
+@media screen and (min-width:415px) and (max-width:770px){
 
-} */
+} 
 
 @media screen and (min-width: 769px) and (max-width:1280px) {
   .container,
