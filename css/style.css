@@ -819,7 +819,7 @@ header li,
 
   }
 
-  .cta .imgLayer-last{
+  .cta .imgLayer{
     background: rgb(239 230 231 / 12%);
     position: absolute;
     content: '';
@@ -856,7 +856,7 @@ header li,
 
   footer .mainFBox h2{
     font-family: "proximNovBold";
-    font-size: 30px;
+    font-size: 25px;
     text-transform: uppercase;
     margin-bottom: 70px;
   }
@@ -865,6 +865,7 @@ header li,
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
     
   }
 
@@ -872,12 +873,14 @@ header li,
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
     
   }
 
   .mainFBox h3,
   .mainFBox p{
     font-family: "proximNovReg";
+    font-size: 13px;
   }
 
   .mainFBox .box-comments p:last-of-type{
@@ -905,7 +908,7 @@ header li,
 @media screen and (min-width: 769px) {
   .container,
   .t-container {
-    max-width: 1500px;
+    max-width: 1100px;
     margin: 0 auto;
   }
 
@@ -972,7 +975,7 @@ header li,
   .j-script {
     position: absolute;
     top: 76px;
-    left: 911px;
+    left: 31%;
     background-color: #efe6e7;
     width: 800px;
     height: 392px;
@@ -1019,7 +1022,7 @@ header li,
   .info .dropUp .dropdown1{
     position: absolute;
     top: 256px;
-    left: 1325px;
+    left: 64%;
   }
 
   .info .dropUp input,
@@ -1042,7 +1045,7 @@ header li,
   .dropdown2 {
     position: absolute;
     top: 447px;
-    left: 1325px;
+    left: 64%;
 
   }
 
@@ -1146,7 +1149,7 @@ header li,
   }
   .cta .boxImg{
     position: relative;
-    width: 577px;
+    width: 515px;
     margin: 28px 13px;
 
   }
@@ -1207,8 +1210,8 @@ header li,
     width: 85%;
   }
 
-  .cta .imgLayer::before{
-    background: rgba(21, 66, 153, 0.11);
+  .cta .imgLayer{
+    background: rgb(239 230 231 / 12%);
     position: absolute;
     content: '';
     width: 100%;
@@ -1238,18 +1241,18 @@ header li,
   }
 
   .cta .boxImg:last-of-type{
-    width: 1187px;
+    width: 1060px;
   }
   .cta .boxImg .imgMon{
     object-fit: cover;
     height: 417px;
-    width: 1187px;
+    
     
 
   }
 
-  .cta .imgLayer-last::before{
-    background: rgba(21, 66, 153, 0.11);
+  .cta .last-imgLayer{
+    background: rgb(239 230 231 / 12%);
     position: absolute;
     content: '';
     width: 100%;
